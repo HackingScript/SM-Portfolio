@@ -1,0 +1,16 @@
+
+.skills{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gap_clas{
+    height: 80px;
+}
+@media screen and (max-width: 800px) {
+    .gap_clas{
+      height:0px;
+    }
+    .col{
+        margin-top:40px;
+    }
+  }

@@ -1,0 +1,51 @@
+.head{
+  font-family:Poppins,sans-serif;
+  font-size: 2rem;
+  font-weight:bold;
+  line-height: normal;
+}
+
+.lan-flex{
+  height: 100px;
+}
+
+.con{
+  margin-top: 20vh;
+}
+
+@media screen and (max-width: 800px) {
+  .row{
+    display: block;
+  }
+  .lan-flex{
+    height: 50px;
+  }
+  .con{
+    margin-top: 0;
+  }
+}
+
+#hi-landing{
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#softLanding{
+    font-size: 1rem;
+    font-family: monospace;
+    color:rgb(34, 34, 34);
+    font-weight: bold;
+}
+.animated-text {
+    font-family: monospace;
+    overflow: hidden; /* hide text that overflows the container */
+    border-right: 0.05em solid rgb(8, 8, 8); /* styling for the typing bar */
+    white-space: nowrap; /* prevent text from wrapping to a new line */
+    animation: typing 4s steps(30, end) infinite; /* animation for typing */
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+  }
+  

@@ -1,0 +1,17 @@
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.social-icon {
+    transition: all 0.2s ease-in-out;
+    }
+    
+.social-icon:hover {
+    transform: scale(1.1);
+    }
+
+.contact-click{
+    text-decoration: none;
+}

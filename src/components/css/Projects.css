@@ -1,0 +1,13 @@
+.img-fluid-pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .img-fluid-pro {
+      width: 100% !important;
+      height:auto;
+    }
+  }
