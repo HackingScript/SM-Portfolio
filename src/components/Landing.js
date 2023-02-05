@@ -14,7 +14,7 @@ export default function Landing(props){
   
   const handleDownloadCVClick = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1yl0wKvfDcVlnaoLA6d4iznDk02b49AYO"";
+    link.href = "https://drive.google.com/uc?export=download&id=1yl0wKvfDcVlnaoLA6d4iznDk02b49AYO";
     link.download = "shivam_cv.pdf";
     link.click();
     props.showAlert("CV Downloaded", "success");
