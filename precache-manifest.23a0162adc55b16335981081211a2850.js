@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "7edb3e539fdbb1ca59d1",
-    "url": "/SM-Portfolio/static/css/main.dc7bf1d1.chunk.css"
+    "revision": "fa7e536eb9796bdc7ed6",
+    "url": "/SM-Portfolio/static/css/main.316b2a71.chunk.css"
   },
   {
-    "revision": "7edb3e539fdbb1ca59d1",
-    "url": "/SM-Portfolio/static/js/main.7edb3e53.chunk.js"
+    "revision": "fa7e536eb9796bdc7ed6",
+    "url": "/SM-Portfolio/static/js/main.fa7e536e.chunk.js"
   },
   {
-    "revision": "a89266deb73d87b01859",
-    "url": "/SM-Portfolio/static/js/1.a89266de.chunk.js"
+    "revision": "b965d220e0d6421fd4e0",
+    "url": "/SM-Portfolio/static/js/1.b965d220.chunk.js"
   },
   {
-    "revision": "c0b1bc3197d5e812a270",
-    "url": "/SM-Portfolio/static/js/2.c0b1bc31.chunk.js"
+    "revision": "1522948efce1d843e98c",
+    "url": "/SM-Portfolio/static/js/2.1522948e.chunk.js"
   },
   {
-    "revision": "073a3a061d108157a108",
-    "url": "/SM-Portfolio/static/js/runtime~main.073a3a06.js"
+    "revision": "a3252d706fcf94e506a9",
+    "url": "/SM-Portfolio/static/js/runtime~main.a3252d70.js"
   },
   {
     "revision": "f0811eb05d3bbdda1c18488bdbb1075f",
@@ -26,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "138649f394300956ebde8aec8a15862c",
     "url": "/SM-Portfolio/static/media/shivam.138649f3.png"
+  },
+  {
+    "revision": "0dc6f91618d0d3ad10772e293b74430e",
+    "url": "/SM-Portfolio/static/media/shivam_cv.0dc6f916.pdf"
   },
   {
     "revision": "72c8aaef7d57751bff5e80f0fe213e71",
@@ -44,7 +48,7 @@ self.__precacheManifest = [
     "url": "/SM-Portfolio/static/media/bank.b82b1181.jpg"
   },
   {
-    "revision": "d66e227593bc8765d387840eab9cf5cd",
+    "revision": "81e034fa87fce762dfa36a9aea28672d",
     "url": "/SM-Portfolio/index.html"
   }
 ];
