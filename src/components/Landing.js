@@ -14,7 +14,7 @@ export default function Landing(props){
   
   const handleDownloadCVClick = () => {
     const link = document.createElement("a");
-    link.href = "documents/shivam_cv.pdf";
+    link.href = "/shivam_cv.pdf";
     link.download = "shivam_cv.pdf";
     link.click();
     props.showAlert("CV Downloaded", "success");
