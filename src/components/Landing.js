@@ -14,11 +14,10 @@ export default function Landing(props){
   
   const handleDownloadCVClick = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1yl0wKvfDcVlnaoLA6d4iznDk02b49AYO/view?usp=sharing";
+    link.href = "https://drive.google.com/file/d/1yl0wKvfDcVlnaoLA6d4iznDk02b49AYO/download?usp=sharing";
     link.download = "shivam_cv.pdf";
     link.click();
     props.showAlert("CV Downloaded", "success");
-    // You can add the code for downloading the CV file here.
   };
 
   return(
