@@ -14,17 +14,19 @@ export default function Landing(props){
   
   const handleDownloadCVClick = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1yl0wKvfDcVlnaoLA6d4iznDk02b49AYO";
+    link.href = "https://dl.dropboxusercontent.com/s/od4w0w4v3z56x2e/shivam_cv.pdf?dl=0";
     link.download = "shivam_cv.pdf";
     link.click();
     props.showAlert("CV Downloaded", "success");
   };
 
   return(
-    <div className="container" id='Home'>
+    <div className="container pt-4" id='Home'>
       <div className="row">
         <div className="col">
-            <img src={Homem} className="img-fluid" alt="..." />
+          <div className="fading-image">
+              <img src={Homem} className="img-fluid" alt="..." />
+          </div>
         </div>
         <div className="col">
             <div className ='conatiner con'> 

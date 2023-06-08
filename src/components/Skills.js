@@ -147,7 +147,7 @@ export default function Skills(props) {
     <div className="row">
       <div className="col">
       <FontAwesomeIcon icon={faDatabase} className='fa-3x' color='#fcc200'/>
-        <p className="skills">MySQL </p>
+        <p className="skills">MongoDB </p>
         <div
           className="progress"
           role="progressbar"

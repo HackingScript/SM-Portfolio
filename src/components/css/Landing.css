@@ -5,6 +5,20 @@
   line-height: normal;
 }
 
+.fading-image {
+  position: relative;
+}
+
+.fading-image::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px; /* Adjust the height to your desired fading effect */
+  background: linear-gradient(transparent, white); /* Adjust the colors as needed */
+}
+
 .lan-flex{
   height: 100px;
 }
